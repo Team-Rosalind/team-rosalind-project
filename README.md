@@ -1,5 +1,5 @@
 # **Team-Rosalind**
-![Hack Bio](https://twitter.com/tbi_internship/header_photo)
+![Hack Bio]()
 
 ## Project : 
 This is the main repository for the HackBio'2020 Virtual Internship Experience.
