@@ -1,8 +1,8 @@
-print(" NAME: Nirvana Munir ") 
-print(" E-MAIL: nirvana.monir66@gmail.com ")
-print(" USED-LANGUAGE:PYTHON ")
-print(" BIOSTACK: Medicinal Chemistry ")
-print(" SLACK USERNAME:@Nirvana ")
+print("NAME: Nirvana Munir") 
+print("E-MAIL: nirvana.monir66@gmail.com")
+print("USED-LANGUAGE:PYTHON")
+print("BIOSTACK: Medicinal Chemistry")
+print("SLACK USERNAME:@Nirvana")
 
 ## Project : 
 This is the main repository for the HackBio'2020 Virtual Internship Experience.
