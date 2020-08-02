@@ -1,4 +1,5 @@
 # **Team-Rosalind**
+![Hack Bio](https://twitter.com/tbi_internship/header_photo)
 
 ## Project : 
 This is the main repository for the HackBio'2020 Virtual Internship Experience.
@@ -8,5 +9,8 @@ This is the main repository for the HackBio'2020 Virtual Internship Experience.
 * Complete task 2 (multiple languages)
 * Make a simple bash script for git commit
 
-## Members
+## Members :
+ 
+
+
 
