@@ -12,7 +12,7 @@ This is the main repository for the HackBio'2020 Virtual Internship Experience.
 - [x] Python
 - [x] Julia
 - [x] C++
-- [ ] R 
+- [x] R 
 - [ ] Java
 - [ ] MATLAB
 - [x] Javascript 
