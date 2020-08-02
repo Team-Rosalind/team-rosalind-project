@@ -27,20 +27,16 @@ If all of the languages are checked, and the requirements (about programming lan
 ## Unified template for output
 Human text is an excellent example of unstructured data. Desired fields (for this task) can be printed out in many different ways. Therefore I propose a unified template for your script output:
 
-'
-NAME: *Your full name*
-E-MAIL: *Your e-mail*
-USED LANGUAGE: *Name of used scripted language. All letters are capital*
-BIOSTACK: *Name of biostack you chose. The only first letter is capital*
-SLACK USERNAME: @+*username*
-'
+>NAME: *Your full name* <br>
+>E-MAIL: *Your e-mail* <br>
+>USED LANGUAGE: *Name of used scripted language. All letters are capital* <br>
+>BIOSTACK: *Name of biostack you chose. The only first letter is capital* <br>
+>SLACK USERNAME: @+*username* <br>
 
 An example:
 
-'
-NAME: Pavlo Hrab
-E-MAIL: pavlo.hrab@lnu.edu.ua
-USED LANGUAGE: JULIA
-BIOSTACK: Genomics
-SLACK USERNAME: @pavlo
-'
+>NAME: Pavlo Hrab <br>
+>E-MAIL: pavlo.hrab@lnu.edu.ua <br>
+>USED LANGUAGE: JULIA <br>
+>BIOSTACK: Genomics <br>
+>SLACK USERNAME: @pavlo <br>
