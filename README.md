@@ -40,3 +40,6 @@ An example:
 >USED LANGUAGE: JULIA <br>
 >BIOSTACK: Genomics <br>
 >SLACK USERNAME: @pavlo <br>
+
+**After you get the desired output, please name your file _stage_0_slack-username_ <br> An example:** 
+>stage_0_pavlo.jl <br>
