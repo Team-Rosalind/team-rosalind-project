@@ -13,8 +13,8 @@ This is the main repository for the HackBio'2020 Virtual Internship Experience.
 - [ ] R 
 - [ ] Java
 - [ ] MATLAB
-- [ ] Javascript 
-- [ ] C
+- [x] Javascript 
+- [x] C
 
 Note: The checklist has 8 languages right now. The minimum required amount is 7. If it is not satisfied, please choose unchecked languages from a list. 
 
