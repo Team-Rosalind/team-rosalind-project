@@ -1,5 +1,5 @@
 print('NAME: Shahida Ferdousee')
 print('E-MAIL: shahida.ferdousee@gmail.com')
-print('USED LANGUAGE: Python')
+print('USED LANGUAGE: PYTHON')
 print('BIOSTACK: Genomics')
 print('SLACK USERNAME: @Rupa')
