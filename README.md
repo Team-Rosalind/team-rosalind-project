@@ -3,7 +3,9 @@
 # Project : 
 This is the main repository for the HackBio'2020 Virtual Internship Experience. <br>
 
-Main goal of the project is write small scripts in different languages with the next output in sdout - name, e-mail, used_language, biostack, slack_username. Next step is to make csv file with rows corresponding to the person and columns to the values (as name, e-mail, etc) in bash, using sdout from scripts. The only master csv is evaluated and information in it
+Main goal of the project is write small scripts in different languages with the next output in sdout - `name, e-mail, used_language, biostack, slack_username`. Next step is to make csv file with rows corresponding to the person and columns to the values (as name, e-mail, etc) in bash, using sdout from scripts. <br>
+
+The only master csv is evaluated and information in it
 
 # Table of content
 - [Getting Started](#getting-started)
@@ -20,7 +22,7 @@ Main goal of the project is write small scripts in different languages with the 
 - [For participants](#for-participants)
   * [Goals (Stage 0):](#goals--stage-0--)
   * [Language check](#language-check)
-  * [I am not a coder, what should a choose?](#i-am-not-a-coder--what-should-a-choose-)
+  * [I am not a coder, what should I choose?](#i-am-not-a-coder--what-should-i-choose-)
   * [Unified template for output](#unified-template-for-output)
   * [Generate a new table of content](#generate-a-new-table-of-content)
 
@@ -29,10 +31,10 @@ Main goal of the project is write small scripts in different languages with the 
 - [Julia language](https://julialang.org/)
 - [Octave](https://www.gnu.org/software/octave/)
 - [Python language](https://www.python.org/)
-- [GCC and G++ compilers](https://gcc.gnu.org/). Availavle via standard package managers
+- [GCC and G++ compilers](https://gcc.gnu.org/). Available via standard package managers
 - [R language](https://www.r-project.org/)
 - [Nodejs](https://nodejs.org/uk/download/package-manager/) for javascript
-- Linux (awk command must recognisable in shell)
+- Linux (awk command must be recognisable in shell)
 ## Running the tests
 ### Check if dependencies are satisfied
 Script for tests (`tests.sh`) is included in the repo. You can run it with the following command:
@@ -55,20 +57,20 @@ sudo pacman -Su;
 sudo pacman -S python octave julia gcc nodejs npm;
 ```
 ## Installing
-The main goal of the project is create a bash script that will clone the repo and produce a csv file with participants' personal information. For this goal no installation is requered, however check if all dependencies are satisfied.
+The main goal of the project is create a bash script that will clone the repo and produce a csv file with the participants' personal information. For this goal no installation is required, however check if all dependencies are satisfied.
 # Flowchart
 
 **TO-DO**
 
 # Usage
-Please download the following script _csv-producer.sh_. Downloading and running the script can be done from a terminal with the following command:
+Please download the following script `csv-producer.sh`. Downloading and running the script can be done from a terminal with the following command:
 ```bash
 wget https://github.com/Team-Rosalind/team-rosalind-project/blob/master/csv-producer.sh && sh csv-producer.sh 
 ```
 **Script is intended to work only in Linux-based systems**
 
 # Versioning
-- README.md -> v 1.3
+- README.md -> v 1.4
 - csv-producer -> v 2.0
 - stage_0_Anu.C v 1.1
 - stage_0_Suritra.cpp -> v 1.0
@@ -104,7 +106,7 @@ wget https://github.com/Team-Rosalind/team-rosalind-project/blob/master/csv-prod
 
 Note: The checklist has 8 languages right now. The minimum required amount is 7. If it is not satisfied, please choose unchecked languages from a list. 
 
-## I am not a coder, what should a choose?
+## I am not a coder, what should I choose?
 Everyone began from something (: Actually the language in this task doesn't matter, as the script is very simple.
 You can search smth similar to "write hello world script in *language_of_interest* ".
 
