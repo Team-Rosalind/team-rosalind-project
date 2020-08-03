@@ -31,7 +31,7 @@ Main goal of the project is write small scripts in different languages with the 
 - [x] C++
 - [x] R 
 - [ ] Java
-- [ ] MATLAB
+- [x] MATLAB
 - [x] Javascript 
 - [x] C
 
