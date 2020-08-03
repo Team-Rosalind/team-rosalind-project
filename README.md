@@ -78,6 +78,7 @@ An example:
 - stage_0_shirine.R -> v 1.0
 - Stage_0_Ife.R -> v 1.0
 - Stage_0_Leye.py -> v 1.1
+- Stage_0_siddhant.py -> v 1.3
 
 ### Generate a new table of content
 The table of content was generated [here](https://ecotrust-canada.github.io/markdown-toc/) Please if you do any updates to file itself, update a table of content as well
