@@ -5,6 +5,6 @@ using namespace std;
 //
 int main()
 {
-    cout << "NAME: Suritra Bandyopadhyay\nE-MAIL: suritra.bandyopadhyay@niser.ac.in\nUSED LANGUAGE: C++\nBIOSTACK: Drug Development\nSLACK USERNAME: @Suritra";
+    cout << "NAME: Suritra Bandyopadhyay\nE-MAIL: suritra.bandyopadhyay@niser.ac.in\nUSED LANGUAGE: C++\nBIOSTACK: Drug Development\nSLACK USERNAME: @Suritra\n";
     return 0;
 }
