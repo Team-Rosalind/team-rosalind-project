@@ -13,8 +13,6 @@ The only master csv is evaluated and information in it
   * [Running the tests](#running-the-tests)
     + [Check if dependencies are satisfied](#check-if-dependencies-are-satisfied)
     + [Installing missing dependencies](#installing-missing-dependencies)
-      - [Ubuntu](#ubuntu)
-      - [Arch-based distributions](#arch-based-distributions)
   * [Installing](#installing)
 - [Flowchart](#flowchart)
 - [Usage](#usage)
@@ -70,7 +68,7 @@ wget https://github.com/Team-Rosalind/team-rosalind-project/blob/master/csv-prod
 **Script is intended to work only in Linux-based systems**
 
 # Versioning
-- README.md -> v 1.4
+- README.md -> v 1.5
 - csv-producer -> v 2.0
 - stage_0_Anu.C v 1.1
 - stage_0_Suritra.cpp -> v 1.0
