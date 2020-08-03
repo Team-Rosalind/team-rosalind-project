@@ -5,12 +5,12 @@ This is the main repository for the HackBio'2020 Virtual Internship Experience. 
 
 Main goal of the project is write small scripts in different languages with the next output in sdout - name, e-mail, used_language, biostack, slack_username. Next step is to make csv file with rows corresponding to the person and columns to the values (as name, e-mail, etc) in bash, using sdout from scripts. The only master csv is evaluated and information in it
 
-## Table of Content:
 - [For participants](#for-participants)
   * [Goals (Stage 0):](#goals--stage-0--)
   * [Language check](#language-check)
       - [I am not a coder, what should a choose?](#i-am-not-a-coder--what-should-a-choose-)
   * [Unified template for output](#unified-template-for-output)
+  * [Get the version of everything!](#get-the-version-of-everything-)
   * [Generate a new table of content](#generate-a-new-table-of-content)
 - [Dependencies](#dependencies)
   * [Installation](#installation)
@@ -62,6 +62,22 @@ An example:
 
 **After you get the desired output, please name your file _stage_0_slack-username_ <br> An example:** 
 >stage_0_pavlo.jl <br>
+
+### Get the version of everything!
+- README.md -> v 1.2
+- csv-producer -> v 1.5
+- stage_0_Anu.C v 1.1
+- stage_0_Suritra.cpp -> v 1.0
+- stage_0_Vika.m -> v 1.0
+- stage_0_dolu.js -> v 1.1
+- stage_0_harinath.C -> v 1.0
+- stage_0_hildred.py -> v 1.1
+- stage_0_pavlo.jl -> v 1.0
+- stage_0_rajvi.jl -> v 1.0
+- stage_0_rupa.py -> v 1.0
+- stage_0_shirine.R -> v 1.0
+- Stage_0_Ife.R -> v 1.0
+- Stage_0_Leye.py -> v 1.1
 
 ### Generate a new table of content
 The table of content was generated [here](https://ecotrust-canada.github.io/markdown-toc/) Please if you do any updates to file itself, update a table of content as well
