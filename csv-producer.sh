@@ -8,7 +8,7 @@ git clone https://github.com/Team-Rosalind/team-rosalind-project.git && cd team-
 #run your scripts. Output is 1 line csv file
 g++ -o Suritra stage_0_Suritra.cpp;
 julia stage_0_pavlo.jl |  awk -F ": " '/^NAME/ {print ""} {printf "%s,", $2} ' | tail -n +2  > pavlo.csv;
-#./Anu |  awk -F ": " '/^NAME/ {print ""} {printf "%s,", $2} ' | tail -n +2 > Anu.csv;
+Cprogram stage_0_Anu.C |  awk -F ": " '/^NAME/ {print ""} {printf "%s,", $2} ' | tail -n +2 > Anu.csv;
 node stage_0_dolu.js  |  awk -F ": " '/^NAME/ {print ""} {printf "%s,", $2} ' | tail -n +2 > dolu.csv;
 python stage_0_hildred.py |  awk -F ": " '/^NAME/ {print ""} {printf "%s,", $2} ' | tail -n +2 > hildred.csv;
 Rscript stage_0_shirine.R |  awk -F ": " '/^NAME/ {print ""} {printf "%s,", $2} ' | tail -n +2 > shirine.csv;
