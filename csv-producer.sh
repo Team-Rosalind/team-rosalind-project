@@ -6,7 +6,6 @@
 git clone https://github.com/Team-Rosalind/team-rosalind-project.git && cd team-rosalind-project;
 
 #run your scripts. Output is 1 line csv file
-#gcc -o Anu stage_0_Anu.C;
 g++ -o Suritra stage_0_Suritra.cpp;
 julia stage_0_pavlo.jl |  awk -F ": " '/^NAME/ {print ""} {printf "%s,", $2} ' | tail -n +2  > pavlo.csv;
 #./Anu |  awk -F ": " '/^NAME/ {print ""} {printf "%s,", $2} ' | tail -n +2 > Anu.csv;
