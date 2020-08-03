@@ -16,11 +16,12 @@ Rscript stage_0_shirine.R |  awk -F ": " '/^NAME/ {print ""} {printf "%s,", $2} 
 python Stage_0_Leye.py|  awk -F ": " '/^NAME/ {print ""} {printf "%s,", $2} ' | tail -n +2 > Leye.csv;
 Rscript Stage_0_Ife.R |  awk -F ": " '/^NAME/ {print ""} {printf "%s,", $2} ' | tail -n +2 > Ife.csv;
 Cprogram stage_0_harinath.C | awk -F ": " '/^NAME/ {print ""} {printf "%s,", $2} ' | tail -n +2 > harinath.csv;
-
+python stage_0_rupa.py|  awk -F ": " '/^NAME/ {print ""} {printf "%s,", $2} ' | tail -n +2 > rupa.csv;
 
 #Adds newlines at the end of csv files
 echo "" >> Suritra.csv;
 echo "" >>Ife.csv;
+echo "" >>rupa.csv;
 echo "" >>shirine.csv;
 echo "" >>dolu.csv;
 echo "" >>hildred.csv;
