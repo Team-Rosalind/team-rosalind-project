@@ -1,3 +1,3 @@
 #Hacbio first task
 
-print("NAME: Olaleye Teslim Olutunde \nEMAIL:oluola2018@gmail.com \nLANGUAGE USED: PYTHON \nBIOSTACK: Genomics \nUSERNAME: @Leye")
+print("NAME: Olaleye Teslim Olutunde \nE-MAIL: oluola2018@gmail.com \nUSED LANGUAGE: PYTHON \nBIOSTACK: Genomics \nSLACK USERNAME: @Leye")

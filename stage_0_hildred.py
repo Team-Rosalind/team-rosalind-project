@@ -1,3 +1,3 @@
 #Member data
-print("NAME:Adebayo Oluwatobiloba Hildred, E-MAIL: hildredadebayo@gmail.com, LANGUAGE: Python, BIOSTACK: Genomics, USERNAME: @Hildred")
+print("NAME: Adebayo Oluwatobiloba Hildred \nE-MAIL: hildredadebayo@gmail.com \nUSED LANGUAGE: PYTHON \nBIOSTACK: Genomics \nSLACK USERNAME: @Hildred")
 
