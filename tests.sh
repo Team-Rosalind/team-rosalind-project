@@ -94,6 +94,19 @@ then
     echo ""
     exit
 fi;
+if ! command -v awk &> /dev/null
+then
+    echo "awk could not be found"
+    echo "Please run for Ubuntu-based systems:"
+    echo ""
+    echo "sudo apt-get install awk" 
+    echo ""
+    echo "or for Arch-based systems:"
+    echo ""
+    echo "sudo pacman -S awk"
+    echo ""
+    exit
+fi;
 echo "Done!"
 echo "All requirements satisfied!"
 cat << "EOF"
