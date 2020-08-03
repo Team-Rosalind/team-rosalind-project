@@ -33,14 +33,19 @@ For neat-looking documentation check out [site](https://team-rosalind.github.io/
 - [R language](https://www.r-project.org/)
 - [Nodejs](https://nodejs.org/uk/download/package-manager/) for javascript
 - Linux (awk command must be recognisable in shell)
+
 ## Running the tests
+
 ### Check if dependencies are satisfied
+
 Script for tests (`tests.sh`) is included in the repo. You can run it with the following command:
 ```bash
 wget https://github.com/Team-Rosalind/team-rosalind-project/blob/master/tests.sh && sh tests.sh
 ```
 The above command will download only the target script and check if all required software is already installed.
+
 ### Installing missing dependencies
+
 #### Ubuntu
 ```bash
 sudo apt-get update;
@@ -68,7 +73,7 @@ wget https://github.com/Team-Rosalind/team-rosalind-project/blob/master/csv-prod
 **Script is intended to work only in Linux-based systems**
 
 # Versioning
-- README.md -> v 1.6
+- README.md -> v 1.7
 - csv-producer -> v 2.0
 - stage_0_Anu.C v 1.1
 - stage_0_Suritra.cpp -> v 1.0
