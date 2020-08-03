@@ -2,6 +2,6 @@
 
 void main
 {
-    printf("Name: Annapoorna C\n Email:annapoornachamundi23@gmail.com\n Language_used: C_Programming\n Biostack: Drug discovery and development\n Slack_username: @Anu");
+    printf("Name: Annapoorna C\nEmail: annapoornachamundi23@gmail.com\nLanguage_used: C_Programming\nBiostack: Drug discovery and development\nSlack_username: @Anu");
 
 }
