@@ -25,6 +25,7 @@ echo "" >>dolu.csv;
 echo "" >>hildred.csv;
 echo "" >>Leye.csv;
 echo "" >>pavlo.csv;
+echo "" >>Anu.csv;
 #Merge csvs
 cat *.csv > Member_info_team-rosalind.txt;
 #rm -f *.csv && mv Member_info_team-rosalind.txt Member_info_team-rosalind.csv
