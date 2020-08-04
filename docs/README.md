@@ -38,7 +38,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
  
-![HackBio](CPP_Task/HackBio.jfif) <br>
+![HackBio](https://github.com/Team-Rosalind/team-rosalind-project/blob/master/CPP_Task/HackBio.jfif) <br>
 Image Source: [@tbi_internship](https://twitter.com/tbi_internship)
 
 > This is the main repository for the HackBio'2020 Virtual Internship Experience. <br>
@@ -108,7 +108,7 @@ The main goal of the project is to create a bash script that will clone the repo
 
 # 📜 Flowchart
 
-![WorkFlow_HackBio](CPP_Task/WorkFlow_HackBIo.png) <br>
+![WorkFlow_HackBio](https://github.com/Team-Rosalind/team-rosalind-project/blob/master/CPP_Task/WorkFlow_HackBIo.png) <br>
 Made using [diagrams.net](https://app.diagrams.net/)
 
 # 🔧 Usage
