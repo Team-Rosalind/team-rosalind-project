@@ -1,0 +1,2 @@
+# Installing
+The main goal of the project is create a bash script that will clone the repo and produce a csv file with the participants' personal information. For this goal no installation is required, however check if all dependencies are satisfied.
