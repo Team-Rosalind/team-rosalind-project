@@ -81,7 +81,7 @@ sudo pacman -Su && sudo pacman -S python octave julia gcc nodejs npm
 The main goal of the project is create a bash script that will clone the repo and produce a csv file with the participants' personal information. For this goal no installation is required, however check if all dependencies are satisfied.
 # Flowchart
 
-**TO-DO**
+![WorkFlow_HackBio](CPP_Task/WorkFlow_HackBIo.png)
 
 # Usage
 Please download the following script `csv-producer.sh`. Downloading and running the script can be done from a terminal with the following command:
