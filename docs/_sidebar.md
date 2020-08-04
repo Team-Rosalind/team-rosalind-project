@@ -1,0 +1,14 @@
+- [Project info](project_info.md)
+- Getting Started
+	- [Prerequisites](prerequisites.md)
+	- [Running the tests](tests.md)
+	- [Installing](installing.md)
+- [Flowchart](flowchart.md)
+- [Usage](usage.md)
+- [Versioning](versioning.md)
+- For participants
+	- [Goals (Stage 0)](goals.md)
+	- [Language check](language.md)
+	- [I am not a coder, what should I choose?](novice.md)
+	- [Unified template for output](unified_template.md)
+	- [Generate a new table of content](new_content_table.md)
