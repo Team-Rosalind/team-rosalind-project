@@ -6,7 +6,7 @@ print('NAME:{}'.format(my_data[0]))
 print('EMAIL:{}'.format(my_data[1]))
 print('LANGUAGE_USED:{}'.format(my_data[2]))
 print('BIOSTACK:{}'.format(my_data[3]))
-print('SLACK_USERNAME:{}'.format(my_data[4]))
+print('SLACK_USERNAME:@{}'.format(my_data[4]))
 
 ##code for selection data 
 import pandas as pd
@@ -19,11 +19,11 @@ for n in positions:
     print('EMAIL:{}'.format(final_data[1]))
     print('LANGUAGE_USED:{}'.format(final_data[2]))
     print('BIOSTACK:{}'.format(final_data[3]))
-    print('SLACK_USERNAME:{}'.format(final_data[4]))
+    print('SLACK_USERNAME:@{}'.format(final_data[4]))
   
 output:
 NAME:Alaa Samy
 EMAIL:alaasamy878@gmail.com
 LANGUAGE_USED:Python
 BIOSTACK:genomics
-SLACK_USERNAME:Alaa
+SLACK_USERNAME:@Alaa
