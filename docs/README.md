@@ -1,6 +1,29 @@
+<h1 align="center">Hi 👋, We are Team-Rosalind 💝</h1>
+<h3 align="center">The team of 30 people for HackBio'2020 Virtual Bioinformatics Internship 🖨️</h3>
 
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=team-rosalind" alt="team-rosalind" /> </p>
+
+- 🔭 We are currently working on [team-rosalind-project](team-rosalind-project)
+
+- 👨‍💻 HackBio Channel [https://hackbio-internship.github.io/webpage-test/](https://hackbio-internship.github.io/webpage-test/)
+
+- 💬 Ask us about **Anything Science! We are your friendly neighborhood science people 🔬**
+
+- 📫 How to reach us? **siddhaantsharma.ss@gmail.com**
+
+- ⚡ Fun fact **We are a diverse community from many nations🤗**
+
+
+
+<p align="center">
+<a href="https://twitter.com/tbi_internship" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="tbi_internship" height="20" width="20" /></a>
+<a href="https://instagram.com/ssiddhaantsharma" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="ssiddhaantsharma" height="20" width="20" /></a>
+<a href="https://www.youtube.com/c/ucrp4skeqrnbax0od3ybyt1w" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg" alt="ucrp4skeqrnbax0od3ybyt1w" height="20" width="20" /></a>
+</p>
 
 # Project
+![HackBio](https://github.com/Team-Rosalind/team-rosalind-project/blob/master/CPP_Task/HackBio.jfif) 
+Image Source: [@tbi_internship](https://twitter.com/tbi_internship)<br>
 This is the main repository for the HackBio'2020 Virtual Internship Experience. <br>
 
 Main goal of the project is write small scripts in different languages with the next output in sdout - `name, e-mail, used_language, biostack, slack_username`. Next step is to make csv file with rows corresponding to the person and columns to the values (as name, e-mail, etc) in bash, using sdout from scripts. <br>
@@ -58,9 +81,11 @@ sudo pacman -Su && sudo pacman -S python octave julia gcc nodejs npm
 ```
 ## Installing
 The main goal of the project is create a bash script that will clone the repo and produce a csv file with the participants' personal information. For this goal no installation is required, however check if all dependencies are satisfied.
-# Flowchart
 
-**TO-DO**
+# Flowchart
+![WorkFlow_HackBio](https://github.com/Team-Rosalind/team-rosalind-project/blob/master/CPP_Task/WorkFlow_HackBIo.png) <br>
+Made using [diagrams.net](https://app.diagrams.net/)
+
 
 # Usage
 Please download the following script `csv-producer.sh`. Downloading and running the script can be done from a terminal with the following command:
