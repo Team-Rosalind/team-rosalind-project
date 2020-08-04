@@ -51,6 +51,7 @@ python stage_0_rupa.py|  awk -F ": " '/^NAME/ {print ""} {printf "%s,", $2} ' | 
 octave stage_0_Vika.m | awk -F ": " '/^NAME/ {print ""} {printf "%s,", $2} ' | tail -n +2 > Vika.csv;
 python Stage_0_Busayo.py|  awk -F ": " '/^NAME/ {print ""} {printf "%s,", $2} ' | tail -n +2 > Busayo.csv;
 julia stage_0_rajvi.jl |  awk -F ": " '/^NAME/ {print ""} {printf "%s,", $2} ' | tail -n +2  > rajvi.csv;
+python stage_0_siddhant.py|  awk -F ": " '/^NAME/ {print ""} {printf "%s,", $2} ' | tail -n +2 > siddhant.csv;
 #Adds newlines at the end of csv files
 echo "Running postprocessing of made csv files..."
 for i in *.csv; do echo "" >> $i; done 
