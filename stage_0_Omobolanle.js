@@ -1,15 +1,15 @@
 let script = {
-    Name: "NAME: ABIODUN OMOBOLANLE ABIMBOLA",
-    email_Address: "emailaddress: abimbola1923@gmail.com",
-    language: "language: JAVASCRIPT",
-    biostack: "biostack: Medicinal Chemistry",
-    slackUsername: "slackUsername: @omobolanle19"
+    NAME: " Abiodun Omobolanle Abimbola",
+    EMAIL: " abimbola1923@gmail.com",
+    USED_LANGUAGE: " JAVASCRIPT",
+    BIOSTACK: "Medicinal Chemistry",
+    SLACK_USERNAME: "@omobolanle19"
 
 }
 
 
-console.log(script.Name);
-console.log(script.email_Address);
-console.log(script.language);
-console.log(script.biostack);
-console.log(script.slackUsername);
+console.log(script.NAME);
+console.log(script.EMAIL);
+console.log(script.USED_LANGUAGE);
+console.log(script.BIOSTACK);
+console.log(script.SLACK_USERNAME);
