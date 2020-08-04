@@ -38,7 +38,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
  
-![HackBio](CPP_Task/HackBio.jfif) <br>
+![HackBio](https://github.com/Team-Rosalind/team-rosalind-project/blob/master/CPP_Task/HackBio.jfif) <br>
 Image Source: [@tbi_internship](https://twitter.com/tbi_internship)
 
 > This is the main repository for the HackBio'2020 Virtual Internship Experience. <br>
