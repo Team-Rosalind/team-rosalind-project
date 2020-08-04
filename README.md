@@ -46,11 +46,7 @@ The above command will download only the target script and check if all required
 
 ### Installing missing dependencies
 
-<<<<<<< Updated upstream
-#### Ubuntu
-=======
 #### Ubuntu 
->>>>>>> Stashed changes
 ```bash
 sudo apt-get update && sudo apt-get install python octave julia gcc g++ r nodejs npm
 ```
