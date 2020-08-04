@@ -22,7 +22,7 @@
 </p>
 
 # Project
-![HackBio](CPP_Task/HackBio.jfif) 
+![HackBio](CPP_Task/HackBio.jfif) <br>
 Image Source: [@tbi_internship](https://twitter.com/tbi_internship)
 
 This is the main repository for the HackBio'2020 Virtual Internship Experience. <br>
