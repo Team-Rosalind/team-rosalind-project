@@ -23,7 +23,7 @@
 
 # Project
 This is the main repository for the HackBio'2020 Virtual Internship Experience. <br>
-
+![HackBio](CPP_Task/HackBio.jfif)
 Main goal of the project is write small scripts in different languages with the next output in sdout - `name, e-mail, used_language, biostack, slack_username`. Next step is to make csv file with rows corresponding to the person and columns to the values (as name, e-mail, etc) in bash, using sdout from scripts. <br>
 
 For neat-looking documentation check out [site](https://team-rosalind.github.io/team-rosalind-project/)
