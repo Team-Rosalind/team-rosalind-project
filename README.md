@@ -81,7 +81,7 @@ wget https://github.com/Team-Rosalind/team-rosalind-project/blob/master/csv-prod
 - stage_0_Vika.m -> v 1.0
 - stage_0_dolu.js -> v 1.1
 - stage_0_harinath.C -> v 1.0
-- stage_0_hildred.py -> v 1.1
+- stage_0_hildred.py -> v 1.6
 - stage_0_pavlo.jl -> v 1.0
 - stage_0_rajvi.jl -> v 1.0
 - stage_0_rupa.py -> v 1.0
