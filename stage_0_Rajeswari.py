@@ -1,1 +1,1 @@
-print("NAME: Rajeswari \nEMAIL: raji.medbio@gmail.com \nBIOSTACK: PUBLICATION IMAGE DESIGN \nUSED LANGUAGE: Python \nSLACK USERNAME: @Rajeswari")
+print("NAME: Rajeswari \nEMAIL: raji.medbio@gmail.com \nUSED LANGUAGE: PYTHON \nBIOSTACK: Publication Image Design \nSLACK USERNAME: @Rajeswari")
