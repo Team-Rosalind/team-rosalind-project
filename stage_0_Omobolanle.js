@@ -8,6 +8,6 @@ let script = {
 }
 
 
-for (let [key, value] of Object.enteries(script)) {
+for (let [key, value] of Object.entries(script)) {
     console.log(key, value);
 }
