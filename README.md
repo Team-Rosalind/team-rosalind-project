@@ -97,7 +97,7 @@ The above command will download only the target script and check if all required
 ```bash
 sudo apt-get update && sudo apt-get install python octave julia gcc g++ r nodejs npm
 ```
-**Please note, that Ubuntu-based installation hasn't been checked yet. Command based on Google search results. If you have any problems please report an issue and try official instruction dor every package as stated on official sites**
+**Please note, that Ubuntu-based installation hasn't been checked yet. Command based on Google search results. If you have any problems please report an issue and try official instruction for every package as stated on official sites**
 
 #### Arch-based distributions
 ```bash
@@ -116,10 +116,10 @@ Please download the following script `csv-producer.sh`. Downloading and running 
 ```bash
 wget https://github.com/Team-Rosalind/team-rosalind-project/blob/master/csv-producer.sh && sh csv-producer.sh 
 ```
-**Script is intended to work only in Linux-based systems**
+**Script is intended to work in Linux-based systems and Windows PowerShell.**
 
 # 🌏 Versioning
-- README.md -> v 1.7
+- README.md -> v 1.9
 - csv-producer -> v 2.0
 - stage_0_Anu.C v 1.1
 - stage_0_Suritra.cpp -> v 1.0
@@ -196,5 +196,7 @@ Contributions are what make the open source community such an amazing place to b
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+Thanks! ❤️
 
 ![Footer](https://github.com/navendu-pottekkat/awesome-readme/blob/master/fooooooter.png)

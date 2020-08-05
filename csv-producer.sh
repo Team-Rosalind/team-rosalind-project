@@ -49,6 +49,7 @@ Rscript Stage_0_Ife.R |  awk -F ": " '/^NAME/ {print ""} {printf "%s,", $2} ' | 
 ./stage_0_harinath | awk -F ": " '/^NAME/ {print ""} {printf "%s,", $2} ' | tail -n +2 > harinath.csv;
 python stage_0_rupa.py|  awk -F ": " '/^NAME/ {print ""} {printf "%s,", $2} ' | tail -n +2 > rupa.csv;
 octave stage_0_Vika.m | awk -F ": " '/^NAME/ {print ""} {printf "%s,", $2} ' | tail -n +2 > Vika.csv;
+python stage_0_Ravi.py |  awk -F ": " '/^NAME/ {print ""} {printf "%s,", $2} ' | tail -n +2 > Ravi.csv;
 python Stage_0_Busayo.py|  awk -F ": " '/^NAME/ {print ""} {printf "%s,", $2} ' | tail -n +2 > Busayo.csv;
 julia stage_0_rajvi.jl |  awk -F ": " '/^NAME/ {print ""} {printf "%s,", $2} ' | tail -n +2  > rajvi.csv;
 python stage_0_siddhant.py|  awk -F ": " '/^NAME/ {print ""} {printf "%s,", $2} ' | tail -n +2 > siddhant.csv;
