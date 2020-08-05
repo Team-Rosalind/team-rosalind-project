@@ -116,7 +116,9 @@ Please download the following script `csv-producer.sh`. Downloading and running 
 ```bash
 wget https://raw.githubusercontent.com/Team-Rosalind/team-rosalind-project/master/csv-producer.sh && sh csv-producer.sh
 ```
-**Script is intended to work in Linux-based systems and Windows PowerShell.**
+**Script is intended to work in Linux-based systems and Windows PowerShell.** <br><br>
+
+![Terminal](Images/carbon(1).png) <br>
 
 # 🌏 Versioning
 - README.md -> v 2.0
