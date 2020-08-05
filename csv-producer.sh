@@ -47,7 +47,9 @@ ls *.c-program | parallel "./{} |awk -F ': ' ' {print \$2} ' |paste -sd ','  > {
 echo "Running postprocessing of made csv files..."
 #for i in *.csv; do echo "" >> $i; done ;
 # Removing empty columns from files
-for i in *.lines; do cat $i | sed 's/,\s,/,/g' |sed 's/^,//g' | sed 's/,\s*/,/g' | sed 's/^\s*//g'   > $i.csv; done;
+
+for i in *.lines; do cat $i | sed 's/,\s,/,/g' |sed 's/^,//g' | sed 's/,\s*/,/g' | sed 's/^\s*//g'  > $i.csv; done;
+
 #rm -f *.csv ;
 #Merge csvs
 echo "Merging csv files...";
