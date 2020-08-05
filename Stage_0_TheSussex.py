@@ -4,7 +4,7 @@
 # In[1]:
 
 
-print("NAME: Success Ologunsua, \nEMAIL: successologunsua@gmail.com, \nLANGUAGE USED: Python, \nBIOSTACK: Data Analytics, \nSLACK USERNAME: @TheSussex")
+print("NAME: Success Ologunsua, \nEMAIL: successologunsua@gmail.com, \nLANGUAGE USED: PYTHON, \nBIOSTACK: Data Analytics, \nSLACK USERNAME: @TheSussex")
 
 
 # In[ ]:
