@@ -4,9 +4,9 @@ biostack <- "Drug Discovery"
 username <- "@Ayobami1517"
 language <- "R"
 
-data <- data.frame(Information=c(name, email, biostack, language, username))
+data <- data.frame(Information=c(name, email, language, biostack, username))
 
-rownames(data) <- c('NAME: ', 'E-MAIL: ', 'BIOSTACK: ', 'LANGUAGE: ', 'USERNAME: ')
+rownames(data) <- c('NAME: ', 'E-MAIL: ', 'LANGUAGE: ', 'BIOSTACK: ', 'USERNAME: ')
 
 colnames(data) <- NULL
 print(data)
