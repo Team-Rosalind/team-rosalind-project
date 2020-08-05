@@ -119,7 +119,7 @@ wget https://raw.githubusercontent.com/Team-Rosalind/team-rosalind-project/maste
 **Script is intended to work in Linux-based systems and Windows PowerShell.**
 
 # 🌏 Versioning
-- README.md -> v 1.9
+- README.md -> v 2.0
 - csv-producer -> v 2.0
 - stage_0_Anu.C v 1.1
 - stage_0_Suritra.cpp -> v 1.0
@@ -191,7 +191,7 @@ The table of content was generated [here](https://ecotrust-canada.github.io/mark
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated** 🎉
 *Working on your first Pull Request? [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)*
 
-1. Fork the Project
+1. Clone the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
