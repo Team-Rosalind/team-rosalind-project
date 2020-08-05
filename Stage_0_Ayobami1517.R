@@ -7,5 +7,6 @@ language <- "R"
 data <- data.frame(Information=c(name, email, biostack, language, username))
 
 rownames(data) <- c('NAME: ', 'E-MAIL: ', 'BIOSTACK: ', 'LANGUAGE: ', 'USERNAME: ')
+
 colnames(data) <- NULL
 print(data)
