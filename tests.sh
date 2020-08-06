@@ -2,7 +2,7 @@
 
 echo "Running tests.."
 
-if ! command -v python &> /dev/null
+if ! command -v python > /dev/null
 then
     echo "Python could not be found"
     echo "Please run for Ubuntu-based systems:"
@@ -16,7 +16,7 @@ then
     exit
 fi;
 
-if ! command -v Rscript &> /dev/null
+if ! command -v Rscript > /dev/null
 then
     echo "Rscipt could not be found"
     echo "Please run for Ubuntu-based systems:"
@@ -29,7 +29,7 @@ then
     echo ""
     exit
 fi;
-if ! command -v octave &> /dev/null
+if ! command -v octave > /dev/null
 then
     echo "Octave could not be found"
     echo "Please run for Ubuntu-based systems:"
@@ -42,7 +42,7 @@ then
     echo ""
     exit
 fi;
-if ! command -v node &> /dev/null
+if ! command -v node > /dev/null
 then
     echo "Nodejs could not be found"
     echo "Please run for Ubuntu-based systems:"
@@ -55,7 +55,7 @@ then
     echo ""
     exit
 fi;
-if ! command -v gcc &> /dev/null
+if ! command -v gcc > /dev/null
 then
     echo "gcc could not be found"
     echo "Please run for Ubuntu-based systems:"
@@ -68,7 +68,7 @@ then
     echo ""
     exit
 fi;
-if ! command -v g++ &> /dev/null
+if ! command -v g++ > /dev/null
 then
     echo "g++ could not be found"
     echo "Please run for Ubuntu-based systems:"
@@ -81,7 +81,7 @@ then
     echo ""
     exit
 fi;
-if ! command -v julia &> /dev/null
+if ! command -v julia > /dev/null
 then
     echo "Julia could not be found"
     echo "Please run for Ubuntu-based systems:"
@@ -94,7 +94,7 @@ then
     echo ""
     exit
 fi;
-if ! command -v awk &> /dev/null
+if ! command -v awk > /dev/null
 then
     echo "awk could not be found"
     echo "Please run for Ubuntu-based systems:"
@@ -107,7 +107,7 @@ then
     echo ""
     exit
 fi;
-if ! command -v sed &> /dev/null
+if ! command -v sed > /dev/null
 then
     echo "sed could not be found"
     echo "Please run for Ubuntu-based systems:"
@@ -120,7 +120,7 @@ then
     echo ""
     exit
 fi;
-if ! command -v parallel &> /dev/null
+if ! command -v parallel > /dev/null
 then
     echo "parallel could not be found"
     echo "Please run for Ubuntu-based systems:"
