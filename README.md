@@ -121,7 +121,7 @@ wget https://raw.githubusercontent.com/Team-Rosalind/team-rosalind-project/maste
 ![Terminal](Images/carbon(1).png) <br>
 
 # 🌏 Versioning
-- README.md -> v 2.0
+- README.md -> v 2.2
 - csv-producer -> v 2.0
 - stage_0_Anu.C v 1.1
 - stage_0_Suritra.cpp -> v 1.0
@@ -142,7 +142,7 @@ wget https://raw.githubusercontent.com/Team-Rosalind/team-rosalind-project/maste
 - stage_0_siddhant.py -> v 1.3
 - stage_0_theSamurai1997.m -> v 1.0
 - Stage_0_Ife.R -> v 1.0
-- Stage_0_Leye.py -> v 1.1
+- Stage_0_Leye.py -> v 1.2
 - Stage_0_Busayo.py -> v 1.1
 - Stage_0_Ayobami1517.R -> v 1.2
 - Stage_0_Nirvana.py -> v 1.0
