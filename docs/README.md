@@ -132,7 +132,7 @@ O
 - stage_0_rupa.py -> v 1.0
 - stage_0_shirine.R -> v 1.0
 - Stage_0_Ife.R -> v 1.0
-- Stage_0_Leye.py -> v 1.1
+- Stage_0_Leye.py -> v 1.2
 - Stage_0_siddhant.py -> v 1.3
 - Stage_0_Busayo.py -> v 1.1
 
