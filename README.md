@@ -1,5 +1,4 @@
-<h1 align="center">Hi 👋, We are Team-Rosalind 💝</h1>
-<h3 align="center">The team of 30 people for HackBio'2020 Virtual Bioinformatics Internship 🖨️</h3>
+<h1 align="center">Hi 👋, We are Team-Rosalind 💝</h1> <h3 align="center">The team of 30 people for HackBio'2020 Virtual Bioinformatics Internship 🖨️</h3>
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=team-rosalind" alt="team-rosalind"/> </p>
 
@@ -121,7 +120,7 @@ wget https://raw.githubusercontent.com/Team-Rosalind/team-rosalind-project/maste
 ![Terminal](Images/carbon(1).png) <br>
 
 # 🌏 Versioning
-- README.md -> v 2.0
+- README.md -> v 2.2
 - csv-producer -> v 2.0
 - stage_0_Anu.C v 1.1
 - stage_0_Suritra.cpp -> v 1.0

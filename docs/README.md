@@ -119,7 +119,7 @@ wget https://raw.githubusercontent.com/Team-Rosalind/team-rosalind-project/maste
 **Script is intended to work only in Linux-based systems**
 O
 # 🌏 Versioning
-- README.md -> v 2.0
+- README.md -> v 2.2
 - csv-producer -> v 2.0
 - stage_0_Anu.C v 1.1
 - stage_0_Suritra.cpp -> v 1.0
