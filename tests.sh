@@ -13,6 +13,7 @@ then
     echo ""
     echo "sudo pacman -S python"
     echo ""
+    exit
 fi;
 
 if ! command -v Rscript &> /dev/null
@@ -26,6 +27,7 @@ then
     echo ""
     echo "sudo pacman -S r"
     echo ""
+    exit
 fi;
 if ! command -v octave &> /dev/null
 then
@@ -38,6 +40,7 @@ then
     echo ""
     echo "sudo pacman -S octave"
     echo ""
+    exit
 fi;
 if ! command -v node &> /dev/null
 then
@@ -50,6 +53,7 @@ then
     echo ""
     echo "sudo pacman -S nodejs npm"
     echo ""
+    exit
 fi;
 if ! command -v gcc &> /dev/null
 then
@@ -62,6 +66,7 @@ then
     echo ""
     echo "sudo pacman -S gcc"
     echo ""
+    exit
 fi;
 if ! command -v g++ &> /dev/null
 then
@@ -74,6 +79,7 @@ then
     echo ""
     echo "sudo pacman -S gcc"
     echo ""
+    exit
 fi;
 if ! command -v julia &> /dev/null
 then
@@ -86,6 +92,7 @@ then
     echo ""
     echo "sudo pacman -S julia"
     echo ""
+    exit
 fi;
 if ! command -v awk &> /dev/null
 then
@@ -98,6 +105,7 @@ then
     echo ""
     echo "sudo pacman -S awk"
     echo ""
+    exit
 fi;
 if ! command -v sed &> /dev/null
 then
@@ -110,6 +118,7 @@ then
     echo ""
     echo "sudo pacman -S sed"
     echo ""
+    exit
 fi;
 if ! command -v parallel &> /dev/null
 then
@@ -122,6 +131,7 @@ then
     echo ""
     echo "sudo pacman -S parallel"
     echo ""
+    exit
 fi;
 echo "Done!"
 echo "All requirements satisfied!"
