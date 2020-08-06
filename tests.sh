@@ -4,6 +4,8 @@
 
 FLAG_EXIT=0
 CLONNED_REPO=0
+PYTHON3_test=0
+PYTHON3=0
 
 declare -a need_to_install
 
@@ -17,12 +19,18 @@ for i in "${checked_programs[@]}"; do
 			if command -v python3 &> /dev/null
 			then 
 				echo "python is missing, hence python3 is detected. Please set PYTHON3 variable in csv-producer to the 1"
+				PYTHON3_test=1
 			fi
 		fi
     	echo "$i is missing in your system"
-
     	need_to_install+=($i)
-    	FLAG_EXIT=1
+    	if [[ "$PYTHON3_test" -eq 1 ]]; then 
+    		FLAG_EXIT=0;
+    		PYTHON3_test=0;
+    		PYTHON3=1
+    	else
+    		FLAG_EXIT=1;
+    	fi;
 	fi; done;
 
  
