@@ -50,7 +50,7 @@ echo "Done!"
 echo "All requirements satisfied!"
 echo ""
 
-if [ ! -d "$tests" ]; then
+if [ ! -d "tests" ]; then
 	echo "tests directory was not found in your system..."
 	echo "Clonning our repo..."
 	echo ""
