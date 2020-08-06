@@ -9,7 +9,7 @@ PYTHON3=0
 
 declare -a need_to_install
 
-checked_programs=(python sed awk parallel julia gcc g++ node)
+checked_programs=(python sed awk parallel julia gcc g++ node octave Rscript)
 
 
 for i in "${checked_programs[@]}"; do
@@ -23,7 +23,11 @@ for i in "${checked_programs[@]}"; do
 			fi
 		fi
     	echo "$i is missing in your system"
-    	need_to_install+=($i)
+    	if [[ "$i" == 'Rscript' ]]; then
+    		need_to_install+=(r-base)
+    	else
+    		need_to_install+=($i)
+    	fi;
     	if [[ "$PYTHON3_test" -eq 1 ]]; then 
     		FLAG_EXIT=0;
     		PYTHON3_test=0;
