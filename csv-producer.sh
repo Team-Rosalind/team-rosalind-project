@@ -29,6 +29,9 @@ ccc:;,'.....',,;;:cclc::;;,'.......'''',
 
 EOF
 
+#python variable. In some systems python can be missing, but python3 is present
+PYTHON3=0
+
 #clone github repo to the current directory and goes to the project directory
 git clone https://github.com/Team-Rosalind/team-rosalind-project.git && cd team-rosalind-project;
 
@@ -38,7 +41,11 @@ ls *.cpp | parallel g++ -o {.}.cpp-program {};
 ls *.C | parallel gcc -o {.}.c-program {};
 echo "Running main scripts..."
 ls *.jl | parallel "julia {} |awk -F ': ' ' {print \$2} ' |paste -sd ','  > {.}.lines";
-ls *.py | parallel "python {} |awk -F ': ' ' {print \$2} ' |paste -sd ','  > {.}.lines";
+if [[ "$PYTHON3" -eq 1 ]]; then 
+	ls *.py | parallel "python3 {} |awk -F ': ' ' {print \$2} ' |paste -sd ','  > {.}.lines";
+elif [[ "$PYTHON3" -eq 0 ]]; then
+	ls *.py | parallel "python {} |awk -F ': ' ' {print \$2} ' |paste -sd ','  > {.}.lines";
+fi;
 ls *.m | parallel "octave {} |awk -F ': ' ' {print \$2} ' |paste -sd ','  > {.}.lines";
 ls *.js | parallel "node {} |awk -F ': ' ' {print \$2} ' |paste -sd ','  > {.}.lines";
 ls *.R | parallel "Rscript {} |awk -F ': ' ' {print \$2} ' |paste -sd ','  > {.}.lines";
