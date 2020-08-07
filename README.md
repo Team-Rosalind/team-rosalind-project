@@ -5,8 +5,7 @@
 
 
 
-- 🔭 We are currently working on [team-rosalind-project](team-rosalind-project)
-
+- 🔭 We are currently working on [team-rosalind-project](https://github.com/Team-Rosalind/team-rosalind-project)
 - 👨‍💻 HackBio Channel [https://hackbio-internship.github.io/webpage-test/](https://hackbio-internship.github.io/webpage-test/)
 
 - 💬 Ask us about **Anything Science! We are your friendly neighborhood science people 🔬**
