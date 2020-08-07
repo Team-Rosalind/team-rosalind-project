@@ -41,9 +41,9 @@ ls *.cpp | parallel g++ -o {.}.cpp-program {};
 ls *.C | parallel gcc -o {.}.c-program {};
 echo "Running main scripts..."
 ls *.jl | parallel "julia {} |awk -F ': ' ' {print \$2} ' |paste -sd ','  > {.}.lines";
-if [[ "$PYTHON3" -eq 1 ]]; then 
+if [ "$PYTHON3" -eq 1 ]; then 
 	ls *.py | parallel "python3 {} |awk -F ': ' ' {print \$2} ' |paste -sd ','  > {.}.lines";
-elif [[ "$PYTHON3" -eq 0 ]]; then
+elif [ "$PYTHON3" -eq 0 ]; then
 	ls *.py | parallel "python {} |awk -F ': ' ' {print \$2} ' |paste -sd ','  > {.}.lines";
 fi;
 ls *.m | parallel "octave {} |awk -F ': ' ' {print \$2} ' |paste -sd ','  > {.}.lines";
@@ -55,7 +55,7 @@ echo "Running postprocessing of made csv files..."
 #for i in *.csv; do echo "" >> $i; done ;
 # Removing empty columns from files
 
-for i in *.lines; do cat $i | sed 's/,\s,/,/g' |sed 's/^,//g' | sed 's/,\s*/,/g' | sed 's/^\s*//g'  > $i.csv; done;
+for i in *.lines; do cat $i | sed 's/,\s*,/,/g' |sed 's/^,//g' | sed 's/,\s*/,/g' | sed 's/^\s*//g'  > $i.csv; done;
 
 #rm -f *.csv ;
 #Merge csvs
