@@ -119,7 +119,7 @@ wget https://raw.githubusercontent.com/Team-Rosalind/team-rosalind-project/maste
 **Script is intended to work only in Linux-based systems**
 O
 # 🌏 Versioning
-- README.md -> v 2.0
+- README.md -> v 2.2
 - csv-producer -> v 2.0
 - stage_0_Anu.C v 1.1
 - stage_0_Suritra.cpp -> v 1.0
@@ -131,10 +131,22 @@ O
 - stage_0_rajvi.jl -> v 1.0
 - stage_0_rupa.py -> v 1.0
 - stage_0_shirine.R -> v 1.0
+- stage_0_Alaa.py -> v 1.1
+- stage_0_Nicole.R -> v 1.2
+- stage_0_Omobolanle.js -> v 1.0
+- stage_0_Rajeswari.py -> v 1.2
+- stage_0_Ravindran.py -> v 1.2
+- stage_0_Richard.py -> v 1.1
+- stage_0_siddhant.py -> v 1.3
+- stage_0_theSamurai1997.m -> v 1.0
 - Stage_0_Ife.R -> v 1.0
-- Stage_0_Leye.py -> v 1.1
-- Stage_0_siddhant.py -> v 1.3
+- Stage_0_Leye.py -> v 1.2
 - Stage_0_Busayo.py -> v 1.1
+- Stage_0_Ayobami1517.R -> v 1.2
+- Stage_0_Nirvana.py -> v 1.0
+- Stage_0_Rasheed.R -> v 1.0
+- Stage_0_TheSussex.py -> v 1.1
+- Stage_0_kaybee.py -> v 1.1
 
 
 # 💬 For participants
