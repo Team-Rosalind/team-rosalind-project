@@ -6,10 +6,15 @@ FLAG_EXIT=0
 CLONNED_REPO=0
 PYTHON3_test=0
 PYTHON3=0
+FLAG_PYTHON=0
+FLAG_BASH=0
 
 declare -a need_to_install
 
 checked_programs=(python sed awk parallel julia gcc g++ node octave Rscript)
+python_packages=(pandas )
+
+declare -a pip_install
 
 
 for i in "${checked_programs[@]}"; do
@@ -34,25 +39,51 @@ for i in "${checked_programs[@]}"; do
     		PYTHON3=1
     	else
     		FLAG_EXIT=1;
+			FLAG_BASH=1;
     	fi;
 	fi; done;
 
- 
+for i in "${python_packages[@]}"; do
+	if [ "$PYTHON3" -eq 1 ]; then 
+		if ! python3 -c 'import $i' 2> /dev/null; then
+			echo "$i is missing in your system"
+			pip_install+=($i)
+            FLAG_EXIT=1;
+			FLAG_PYTHON=1;      
+		fi
+	else 
+		if ! pthon -c 'import $i' 2> /dev/null; then
+			echo "$i is missing in your system"
+			pip_install+=($i)
+            FLAG_EXIT=1;
+			FLAG_PYTHON=1;
+		fi
+	fi;
+done;
+
 
 if [[ "$FLAG_EXIT"  -eq 1 ]]; then
 	echo "Please satisfy dependencies before running futher tests!"
 	echo "You can use the following command:"
-	echo
-	echo "For Ubuntu-based system:"
-	echo "sudo apt-get ${need_to_install[*]}"
-	echo
-	echo "For Arch-based:"
-	echo "sudo pacman ${need_to_install[*]}"
-	echo "NOTE: If g++ was not found, you must only install gcc. g++ is included in that package for arch"
-	echo
-	echo "For Fedora"
-	echo "sudo yum ${need_to_install[*]}"
-	echo
+	if [ "$FLAG_BASH" -eq 1 ]; then
+		echo
+		echo "For Ubuntu-based system:"
+		echo "sudo apt-get ${need_to_install[*]}"
+		echo
+		echo "For Arch-based:"
+		echo "sudo pacman ${need_to_install[*]}"
+		echo "NOTE: If g++ was not found, you must only install gcc. g++ is included in that package for arch"
+		echo
+		echo "For Fedora"
+		echo "sudo yum ${need_to_install[*]}"
+		echo
+	fi;
+	if [ "$FLAG_PYTHON" -eq 1 ]; then
+		echo
+		echo "To satisfy python dependencies please run:"
+		echo "pip install ${pip_install[*]}"
+		echo
+	fi;
 	echo -e "\033[1mWhen all dependencies will be satisfied, please run this script one more time!"
 	echo
 	exit;
