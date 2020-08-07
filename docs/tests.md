@@ -4,7 +4,7 @@
 
 Script for tests (`tests.sh`) is included in the repo. You can run it with the following command:
 ```bash
-wget https://github.com/Team-Rosalind/team-rosalind-project/blob/master/tests.sh && sh tests.sh
+wget https://raw.githubusercontent.com/Team-Rosalind/team-rosalind-project/master/tests.sh && sh tests.sh
 ```
 The above command will download only the target script and check if all required software is already installed.
 
